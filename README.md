@@ -1,4 +1,4 @@
-# Student Task Manager
+# Student Task Manager (FlutterProjStudentFlow)
 
 A comprehensive Flutter application designed to help students organize their tasks by subject, deadline, and status. Built with Material 3 design, Firebase Authentication, and SQLite for local storage.
 
@@ -84,9 +84,10 @@ Student Task Manager provides students with a powerful tool to:
 
 ### Setup Instructions
 
-1. **Clone or navigate to the project directory**
+1. **Clone the repository**
    ```bash
-   cd students_task_manager
+   git clone https://github.com/Eye-que/FlutterProjStudentFlow.git
+   cd FlutterProjStudentFlow
    ```
 
 2. **Install Dependencies**
@@ -113,6 +114,15 @@ Student Task Manager provides students with a powerful tool to:
    ```bash
    flutter run
    ```
+
+### Building APK
+
+To build a release APK:
+```bash
+flutter build apk --release
+```
+
+The APK will be generated at `build/app/outputs/flutter-apk/app-release.apk`
 
 ### Firebase Configuration Note
 The app is designed to work with Firebase Authentication. After you provide the `google-services.json` file, the authentication features will be fully functional. The app will still compile and run without Firebase configuration, but authentication won't work until Firebase is properly set up.
